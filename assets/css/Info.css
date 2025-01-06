@@ -1,0 +1,149 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /* considera a borda como tamanho total*/
+}
+
+body {
+    background-color: #e4e4e4;
+}
+
+.contentInfo {
+    height: 50vh;
+    width: 100vw;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.Header {
+    display: flex;
+    max-width: 901px;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-top: 30px;
+    background-color: #46D1B2;
+    justify-content: space-between;
+}
+
+.contentInfoImg {
+    display: flex;
+    height: 30vh;
+    max-width: 901px;
+    margin: 0 auto;
+    background-color: #46D1B2;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+
+}
+
+.contentInfoImg img{
+    position: absolute;
+    top: 70px;
+}
+
+@media screen and (min-width: 992px) {
+    .contentInfo{
+        max-width: 992px;
+        height: 50vh;
+        margin: 0 auto;
+        border-bottom: 1rem ;
+    }
+    }
+
+    .options {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        padding-inline-start: 0px;
+        
+        
+    }
+
+    .bot {
+        height: 30px;
+    }
+
+    .heart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: none;
+        
+    }
+
+    .heart img{
+        max-width: 100%;
+        height: 15px;
+    }
+
+    .foto {
+      max-width: 100%;
+      height: 200px;
+
+    }
+
+    .options li a {
+        text-decoration: none; /* Tirar sublinhado da tag "a" */
+    }
+
+    .liDupla {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    .liDupla li{
+        flex: 1 1 50%;
+        
+    }
+
+    @media screen and (min-width: 1024px) {
+        .contentInfo{
+            max-width: 1024px;
+            height: 50vh;
+            margin: 0 auto;
+            border-bottom: 1rem ;
+        }
+        .contentInfoImg{
+            max-width: 1024px;
+            height: 50vh;
+            margin: 0 auto;
+            border-bottom: 1rem ;
+        }
+        .Header {
+            display: flex;
+            max-width: 1024px;
+            margin: 0 auto;
+            padding: 1rem;
+            padding-top: 30px;
+            background-color: #46D1B2;
+            justify-content: space-between;
+        }
+    }
+    
+    @media screen and (min-width: 1440px) {
+        .contentInfo{
+            max-width: 1440px;
+            height: 50vh;
+            margin: 0 auto;
+            border-bottom: 1rem ;
+        }
+        .contentInfoImg{
+            max-width: 1440px;
+            height: 50vh;
+            margin: 0 auto;
+            border-bottom: 1rem ;
+        }
+        .Header {
+            display: flex;
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 1rem;
+            padding-top: 30px;
+            background-color: #46D1B2;
+            justify-content: space-between;
+        }
+    }
