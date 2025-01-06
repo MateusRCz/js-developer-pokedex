@@ -81,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 
             </ol>
 
+            
             <h4>Breeding</h4>
             <ol class="liDupla">
                 <li>Gender</li>
